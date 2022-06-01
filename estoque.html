@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto javascript</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+        <h1>Estoque de produtos</h1>
+    
+ </header>
+    
+ <main>
+     <div class="title">
+         <h2> produtos</h2>
+          <span>lista de produtos</span>
+     </div>
+            <h1>controle de produtos</h1>
+
+            <div class="card">
+               
+            <div class="lineinput">
+                <label>produto</label>
+                <input type="text" name="" id="produto" placeholder="Nome do produto">
+            </div>
+
+            <div class="lineinput">
+                <label>preço</label>
+                <input type="number" name="" id="preço" placeholder="valor do produto">
+            </div>
+
+
+        <button onclick=" produto.salvar()" id="btn1">salvar</button>
+        <button onclick="produto.cancelar()">cancelar</button>
+           </div>
+
+           <div class="content">
+               <table border="1">
+                   <thead>
+                       <th class="center">ID</th>
+                       <th>produto</th>
+                       <th>valor</th>
+                       <th class="center">ações</th>
+                   </thead>
+                   <tbody id="tbody">
+                       
+                   </tbody>
+               </table>
+           </div>
+</main>
+  
+</body>
+</html>
